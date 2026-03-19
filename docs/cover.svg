@@ -1,0 +1,29 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="120" x2="1120" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="36" fill="url(#bg)"/>
+  <circle cx="1080" cy="140" r="120" fill="#38BDF8" fill-opacity="0.12"/>
+  <circle cx="180" cy="610" r="150" fill="#A78BFA" fill-opacity="0.12"/>
+  <rect x="92" y="86" width="1096" height="548" rx="28" fill="#0B1220" stroke="url(#accent)" stroke-width="2"/>
+  <text x="120" y="170" fill="#E2E8F0" font-size="58" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-weight="700">崽子 OS</text>
+  <text x="120" y="228" fill="#94A3B8" font-size="28" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">基于 OpenClaw 的长期协作型 AI 员工系统</text>
+  <text x="120" y="320" fill="#F8FAFC" font-size="30" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">让 AI 助手从一次性聊天工具，进化成长期协作、可自我校准、可持续沉淀的个人生产力系统</text>
+  <rect x="120" y="390" width="250" height="54" rx="27" fill="#0EA5E9" fill-opacity="0.18" stroke="#38BDF8"/>
+  <text x="150" y="425" fill="#E0F2FE" font-size="24" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">高效沟通协议</text>
+  <rect x="392" y="390" width="250" height="54" rx="27" fill="#8B5CF6" fill-opacity="0.18" stroke="#A78BFA"/>
+  <text x="430" y="425" fill="#F3E8FF" font-size="24" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">长期连续性系统</text>
+  <rect x="664" y="390" width="220" height="54" rx="27" fill="#22C55E" fill-opacity="0.18" stroke="#4ADE80"/>
+  <text x="706" y="425" fill="#DCFCE7" font-size="24" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">自我校准</text>
+  <rect x="906" y="390" width="230" height="54" rx="27" fill="#F59E0B" fill-opacity="0.18" stroke="#FBBF24"/>
+  <text x="942" y="425" fill="#FEF3C7" font-size="24" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">Skill 沉淀</text>
+  <text x="120" y="520" fill="#CBD5E1" font-size="24" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">• 沟通低误判  • 角色不失真  • 上下文不发胖  • 长期协作更稳定</text>
+  <text x="120" y="586" fill="#64748B" font-size="22" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">GitHub: github.com/zaizhi-1112/zaizi-os</text>
+</svg>
