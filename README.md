@@ -49,8 +49,11 @@
 对应 skill：
 - `github-project-publisher`
 
-### 6. 模型切换与协作调度
-在 IM 对话中直接切换主模型，减少去电脑端网关手动切换的摩擦，让 AI 员工在真实使用中更丝滑。
+### 6. 模型切换、短回复保护与重试防护
+在 IM 对话中直接切换主模型，并在模型切换、gateway 重启、会话恢复等脆弱窗口里进入短回复保护模式，减少重复回复、半截重发和额外消耗。
+
+对应 skill：
+- `message-idempotency-and-retry-guard`
 
 ### 7. 效率监督与执行纠偏
 结合真实工作周报和复盘，让 AI 助手从“回答问题”升级为“监督执行”。
@@ -107,9 +110,12 @@ zaizi-os/
 - `agent-self-calibration`
 - `agent-continuity-system`
 - `skill-opportunity-radar`
+- `github-project-publisher`
+- `message-idempotency-and-retry-guard`
 
 ## 项目定位
 
 这个项目想证明的不是“AI 可以做很多事”，而是：
 
 **AI 助手在长期协作场景下，如何从一次性工具，进化成真正能长期陪跑、持续提效、不断沉淀方法的个人生产力操作系统。**
+�何从一次性工具，进化成真正能长期陪跑、持续提效、不断沉淀方法的个人生产力操作系统。**
