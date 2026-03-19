@@ -85,10 +85,21 @@ zaizi-os/
 
 ## 快速使用
 
-1. 从 `dist/` 中选择需要的 `.skill` 包
+### 方式一：直接安装 skill 包（推荐）
+1. 前往 `dist/` 目录，选择需要的 `.skill` 包
 2. 导入到你的 OpenClaw 环境
 3. 根据自己的协作风格调整协议和角色设定
-4. 在真实使用中持续迭代、沉淀和封装新的 skill
+
+### 方式二：让你的 OpenClaw 读取仓库学习
+1. 把仓库链接发给你的 OpenClaw：
+   <https://github.com/zaizhi-1112/zaizi-os>
+2. 让它读取仓库中的 README、docs 和 skills
+3. 根据你的环境导入或复用这些能力
+
+### 注意
+- 仓库需保持公开可访问
+- 不同 OpenClaw 环境对 GitHub 读取、skill 导入和工具权限支持不同
+- 最稳定的方式仍然是直接使用 `dist/` 里的 `.skill` 包
 
 ## 当前包含的 skills
 
