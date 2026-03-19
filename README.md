@@ -6,7 +6,7 @@
 
 **崽子 OS** 是一个基于 OpenClaw 搭建的长期协作型 AI 员工系统。
 
-它不只是一个“能聊天”的助手，而是一个能够在长期使用中持续保持角色一致性、沟通效率、上下文连续性与自我校准能力的个人生产力系统。
+它不只是一个"能聊天"的助手，而是一个能够在长期使用中持续保持角色一致性、沟通效率、上下文连续性与自我校准能力的个人生产力系统。
 
 在真实使用过程中，我围绕自己的工作流，逐步把 OpenClaw 从一个即时对话工具，打磨成一个能够长期协助我进行内容运营、工作复盘、效率监督、模型切换、知识沉淀与 skill 封装的 AI 员工。
 
@@ -32,7 +32,7 @@
 - `agent-continuity-system`
 
 ### 3. 自我校准机制
-当助手逐渐变得像“标准助手”、失去角色感时，能够识别并拉回正确的人格与表达方式。
+当助手逐渐变得像"标准助手"、失去角色感时，能够识别并拉回正确的人格与表达方式。
 
 对应 skill：
 - `agent-self-calibration`
@@ -56,7 +56,7 @@
 - `message-idempotency-and-retry-guard`
 
 ### 7. 效率监督与执行纠偏
-结合真实工作周报和复盘，让 AI 助手从“回答问题”升级为“监督执行”。
+结合真实工作周报和复盘，让 AI 助手从"回答问题"升级为"监督执行"。
 
 ## 仓库结构
 
@@ -70,18 +70,22 @@ zaizi-os/
 │   ├── openclaw-communication-protocol/
 │   ├── agent-self-calibration/
 │   ├── agent-continuity-system/
-│   └── skill-opportunity-radar/
+│   ├── skill-opportunity-radar/
+│   ├── github-project-publisher/
+│   └── message-idempotency-and-retry-guard/
 └── dist/
     ├── openclaw-communication-protocol.skill
     ├── agent-self-calibration.skill
     ├── agent-continuity-system.skill
-    └── skill-opportunity-radar.skill
+    ├── skill-opportunity-radar.skill
+    ├── github-project-publisher.skill
+    └── message-idempotency-and-retry-guard.skill
 ```
 
 ## 适合谁
 
 这个项目适合：
-- 想把 OpenClaw 从“聊天工具”升级成“长期协作伙伴”的人
+- 想把 OpenClaw 从"聊天工具"升级成"长期协作伙伴"的人
 - 想降低 AI 助手误判、跑偏、失忆、模板化问题的人
 - 想把长期对话经验沉淀成 skill 和方法论的人
 - 想让 AI 真正参与个人生产力系统建设的人
@@ -115,7 +119,6 @@ zaizi-os/
 
 ## 项目定位
 
-这个项目想证明的不是“AI 可以做很多事”，而是：
+这个项目想证明的不是"AI 可以做很多事"，而是：
 
 **AI 助手在长期协作场景下，如何从一次性工具，进化成真正能长期陪跑、持续提效、不断沉淀方法的个人生产力操作系统。**
-�何从一次性工具，进化成真正能长期陪跑、持续提效、不断沉淀方法的个人生产力操作系统。**
