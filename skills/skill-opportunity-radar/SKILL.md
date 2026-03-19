@@ -108,6 +108,8 @@ A workflow is probably ready for skill packaging if it is:
 - reusable
 - teachable
 - worth not rediscovering
+- high-value even without high repetition
+- already becoming an asset, not just a conversation
 
 ## Suggestion format
 
@@ -126,6 +128,26 @@ Example:
 ## Distinguish skill vs memory
 
 Not everything should become a skill.
+
+### Better as memory
+- user preferences
+- one user's private context
+- personal habits
+- single-case instructions
+
+### Better as a skill
+- reusable workflow
+- repeatable method
+- domain-specific procedure
+- cross-user collaboration pattern
+- problem/solution sequence with durable value
+
+## References
+
+Read as needed:
+- `references/evaluation-heuristics.md` — how to judge skill-worthiness
+- `references/prompt-patterns.md` — short reminder formats and escalation levels
+kill.
 
 ### Better as memory
 - user preferences

@@ -19,6 +19,23 @@ If this is not only useful to the current user, the case for a skill gets strong
 ### 5. The solution would be annoying to rediscover
 If future-you would hate having to reconstruct this from scratch, package it.
 
+### 6. A high-value result was achieved
+Even if the task is not highly repetitive, the output crossed a meaningful threshold.
+
+Examples:
+- local project to public GitHub repo
+- chat idea to working skill package
+- rough process to reusable operating method
+
+### 7. The result became an asset
+If the conversation produced something durable outside the chat thread, skill potential rises.
+
+Examples:
+- repository
+- published documentation
+- packaged skill
+- reusable submission workflow
+
 ## Weak signals
 
 These alone are not enough:
